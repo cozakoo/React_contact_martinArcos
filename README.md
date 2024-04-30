@@ -2,6 +2,11 @@
 
 Este proyecto es una aplicación web que muestra mis datos de contacto de manera resumida y dinámica. Ha sido desarrollado utilizando tecnologías modernas como React, Vite, Animate.css, Frame Motions y Tailwind CSS.
 
+### 👉👉 [Click Here](https://martin-arcos-contact.netlify.app/) 👈👈 para ver el proyecto
+
+https://github.com/cozakoo/React_contact_martinArcos/assets/107519498/98317618-21a2-45a2-b9e0-c80051023b11
+
+
 ## Características
 - Datos de contacto resumidos: El proyecto muestra de manera clara y concisa mis datos de contacto, permitiendo a los usuarios acceder fácilmente a la información que necesitan.
 
@@ -58,4 +63,4 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 4. Sube tus cambios a tu repositorio fork (git push origin mi-contribucion).
 
 ## Licencia
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
