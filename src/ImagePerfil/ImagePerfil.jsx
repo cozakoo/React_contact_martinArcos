@@ -11,7 +11,7 @@ export function ImagePerfil({ perfilImage, perfilImageHover, handleMouseEnter, h
         <img
           src={isHovered ? perfilImageHover : perfilImage}
           alt="Perfil"
-          className={`perfil-image border-2 border-teal-500 rounded-full h-32 w-32 bg-gradient-to-r animate__animated ${isHovered && perfilImageHover ? 'animate__flipInY' : 'animate__rotateIn'}`}
+          className={`perfil-image border-4 border-teal-600 rounded-full h-32 w-32 bg-gradient-to-r animate__animated ${isHovered && perfilImageHover ? 'animate__flipInY' : 'animate__rotateIn'}`}
           />
       </div>
     );

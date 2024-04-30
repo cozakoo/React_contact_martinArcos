@@ -5,6 +5,7 @@ import { ContactButton } from './ContactButton/ContactButton.jsx';
 import { ImagePerfil } from './ImagePerfil/ImagePerfil.jsx';
 import { NombrePerfil } from './NombrePerfil/NombrePerfil.jsx';
 import { FrasePerfil } from './FrasePerfil/FrasePerfil.jsx';
+import { VideoBackground } from './VideoBackground/VideoBackground.jsx';
 
 // ICONOS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa FontAwesomeIcon
@@ -17,6 +18,8 @@ import { faXTwitter } from '@fortawesome/free-brands-svg-icons/faXTwitter';
 import { faCouch } from '@fortawesome/free-solid-svg-icons/faCouch'; 
 
 import perfilImage from './assets/photoPerfil.png';
+import videoBack from './assets/background.mp4';
+
 import perfilImageHover from './../public/logo.png';
 
 import 'animate.css';
@@ -25,7 +28,7 @@ import './App.css';
 const nombrePerfil = 'Martín Arcos Vargas';
 const correo = 'martinarcosvargas2@gmail.com';
 
-const frase = '"Al igual que un algoritmo encuentra su solución óptima, cada sendero nos lleva a descubrir nuestra propia ruta hacia el éxito. ¡Programa tu camino y conquista las cimas de la vida!"';
+const frase = '"En la programación y en el trekking, cada paso es un progreso hacia nuevas alturas y logros emocionantes."';
 
 const botones = [
   {
@@ -88,7 +91,12 @@ function App() {
   };
   
   return (
-    <section className='App bg-stone-700 min-h-screen flex flex-col justify-center items-center text-center'>
+    <section className='App  min-h-screen flex flex-col justify-center items-center text-center'>
+
+      <VideoBackground
+        videoSource={videoBack}
+      />
+
       <ImagePerfil
         perfilImage={perfilImage}
         perfilImageHover={perfilImageHover}
