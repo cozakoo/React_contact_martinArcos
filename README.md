@@ -2,6 +2,10 @@
 
 Este proyecto es una aplicación web que muestra mis datos de contacto de manera resumida y dinámica. Ha sido desarrollado utilizando tecnologías modernas como React, Vite, Animate.css, Frame Motions y Tailwind CSS.
 
+
+https://github.com/cozakoo/React_contact_martinArcos/assets/107519498/98317618-21a2-45a2-b9e0-c80051023b11
+
+
 ## Características
 - Datos de contacto resumidos: El proyecto muestra de manera clara y concisa mis datos de contacto, permitiendo a los usuarios acceder fácilmente a la información que necesitan.
 
