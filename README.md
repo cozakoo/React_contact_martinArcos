@@ -63,4 +63,4 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 4. Sube tus cambios a tu repositorio fork (git push origin mi-contribucion).
 
 ## Licencia
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
