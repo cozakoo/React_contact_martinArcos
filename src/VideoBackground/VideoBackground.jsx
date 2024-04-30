@@ -1,7 +1,6 @@
 import React from 'react';
 import './VideoBackground.css';
 
-
 export function VideoBackground({ videoSource }) {
     return (
         <video autoPlay muted loop className="video-bg">
@@ -10,3 +9,4 @@ export function VideoBackground({ videoSource }) {
         </video>
     );
 }
+
