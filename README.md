@@ -4,8 +4,7 @@ Este proyecto es una aplicación web que muestra mis datos de contacto de manera
 
 ### 👉👉 [Click Here](https://martin-arcos-contact.netlify.app/) 👈👈 para ver el proyecto
 
-https://github.com/cozakoo/React_contact_martinArcos/assets/107519498/98317618-21a2-45a2-b9e0-c80051023b11
-
+https://github.com/cozakoo/React_contact_martinArcos/assets/107519498/8a00a3f4-59c8-447d-a433-a0834f07c90d
 
 ## Características
 - Datos de contacto resumidos: El proyecto muestra de manera clara y concisa mis datos de contacto, permitiendo a los usuarios acceder fácilmente a la información que necesitan.
