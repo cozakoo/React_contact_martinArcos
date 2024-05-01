@@ -91,13 +91,13 @@ function App() {
   };
   
   return (
-    <section className='App min-h-screen flex flex-col  items-center text-center'>
+    <section className='App  flex flex-col  items-center text-center'>
 
       <br/>
 
-      {/* <VideoBackground
+      <VideoBackground
         videoSource={videoBack}
-      /> */}
+      />
 
       <ImagePerfil
         perfilImage={perfilImage}

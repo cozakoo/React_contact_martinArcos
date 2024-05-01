@@ -14,7 +14,7 @@ export function ImagePerfil({ perfilImage, perfilImageHover, handleMouseEnter, h
               <img
                   src={isHovered ? perfilImageHover : perfilImage}
                   alt="Martin Arcos datos de contacto"
-                  className={`perfil-image border-4 border-teal-400 rounded-full bg-gradient-to-b animate__animated ${
+                  className={`perfil-image border-4 border-zinc-600 rounded-full bg-gradient-to-b animate__animated ${
                       isHovered && perfilImageHover ? 'animate__flipInY' : 'animate__rotateIn'
                   }`}
               />
