@@ -1,9 +1,9 @@
 import React from 'react';
+import './FrasePerfil.css';
 
 export function FrasePerfil({ frasePerfil }) {
     return (
-        <div>
-            <span className="italic text-zinc-400">{frasePerfil}</span>
-        </div>
+    
+        <span className="italic text-zinc-200">{frasePerfil}</span>
     );
 }

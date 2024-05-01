@@ -9,15 +9,16 @@ export function ImagePerfil({ perfilImage, perfilImageHover, handleMouseEnter, h
           onMouseLeave={handleMouseLeave}
           style={{ transform: `rotate(${rotateDegree}deg)` }}
       >
+
           <div className="perfil-image-wrapper">
               <img
                   src={isHovered ? perfilImageHover : perfilImage}
                   alt="Martin Arcos datos de contacto"
-                  className={`perfil-image border-4 border-teal-600 bg-gradient-to-b animate__animated ${
+                  className={`perfil-image border-4 border-teal-400 rounded-full bg-gradient-to-b animate__animated ${
                       isHovered && perfilImageHover ? 'animate__flipInY' : 'animate__rotateIn'
                   }`}
               />
-          </div>
+          </div> 
       </div>
   );
 }

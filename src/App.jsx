@@ -17,10 +17,11 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons/faXTwitter'; 
 import { faCouch } from '@fortawesome/free-solid-svg-icons/faCouch'; 
 
-import perfilImage from './assets/photoPerfil.png';
 import videoBack from './assets/background.mp4';
 
-import perfilImageHover from './../public/logo.png';
+import perfilImage from './assets/perfil1.png';
+import perfilImageHover from './assets/perfil2.png';
+
 
 import 'animate.css';
 import './App.css';
@@ -87,15 +88,16 @@ function App() {
 
   const handleMouseLeave = () => {
     setIsHovered(false);
-    setRotateDegree(180); // Aplica el estilo rotateOut al salir del área de la imagen
   };
   
   return (
-    <section className='App  min-h-screen flex flex-col justify-center items-center text-center'>
+    <section className='App min-h-screen flex flex-col  items-center text-center'>
 
-      <VideoBackground
+      <br/>
+
+      {/* <VideoBackground
         videoSource={videoBack}
-      />
+      /> */}
 
       <ImagePerfil
         perfilImage={perfilImage}
@@ -103,7 +105,7 @@ function App() {
         handleMouseEnter={handleMouseEnter}
         handleMouseLeave={handleMouseLeave}
         isHovered={isHovered}
-      />
+      /> 
 
       <NombrePerfil nombrePerfil={nombrePerfil} correo={correo} />
       <FrasePerfil frasePerfil={frase} />

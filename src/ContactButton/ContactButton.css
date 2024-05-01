@@ -7,4 +7,16 @@
 .contact-button:hover {
     color: #b0b0b0; /* Color blanco cuando se hace hover */
     background-color: rgb(2, 101, 101); /* Cambio de color de fondo cuando se hace hover */
+    cursor: grab; /* Cambia el cursor a una mano cuando se hace hover */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 1); /* Agrega una sombra al botón */
+}
+.contact-button.clicked {
+    cursor: grabbing; /* Cambia el cursor a una mano con todos los dedos extendidos cuando se hace clic */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .contact-button {
+    margin-bottom: 3%;
+  }
 }
