@@ -34,7 +34,7 @@ const frase = '"En la programación y en el trekking, cada paso es un progreso h
 const botones = [
   {
     name: 'Couchsurfing',
-    icon: faCouch,
+    // icon: faCouch,
     url: 'https://www.couchsurfing.com/people/martin-arcos',
   },
 
@@ -73,7 +73,11 @@ const botones = [
     icon: faWhatsapp,
     url: 'https://api.whatsapp.com/send/?phone=5492804505803&text&type=phone_number&app_absent=0',
   },
-
+  {
+    name: 'Workaway',
+    // icon: ,
+    url: 'https://www.workaway.info/es/workawayer/MartinArcos/overview',
+  },
 ];
 
 
