@@ -63,6 +63,12 @@ const botones = [
   },
 
   {
+    name: 'Portafolio',
+    // icon: ,
+    url: 'https://arcosvargas.com/',
+  },
+
+  {
     name: 'Twitter',
     icon: faXTwitter,
     url: 'https://twitter.com/MartinA98316703',
